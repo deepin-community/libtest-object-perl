@@ -1,0 +1,31 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Source: https://metacpan.org/release/Test-Object
+Upstream-Contact: Karen Etheridge <ether@cpan.org>
+Upstream-Name: Test-Object
+
+Files: *
+Copyright: 2005, 2006 Adam Kennedy <cpan@ali.as>
+License: Artistic or GPL-1+
+
+Files: debian/*
+Copyright: 2007      Joey Hess <joey@debian.org>
+           2013-2017 Axel Beckert <abe@debian.org>
+License: Artistic or GPL-1+
+Comment: Without explicit statement it is assumed that the packaging
+ is licensed under the same terms as the upstream code.
+
+License: Artistic
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the Artistic License, which comes with Perl.
+ .
+ On Debian systems, the complete text of the Artistic License can be
+ found in `/usr/share/common-licenses/Artistic'.
+
+License: GPL-1+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 1, or (at your option)
+ any later version.
+ .
+ On Debian systems, the complete text of version 1 of the GNU General
+ Public License can be found in `/usr/share/common-licenses/GPL-1'.

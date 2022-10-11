@@ -1,0 +1,22 @@
+Source: libtest-object-perl
+Maintainer: Debian Perl Group <pkg-perl-maintainers@lists.alioth.debian.org>
+Uploaders: Axel Beckert <abe@debian.org>
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 10)
+Build-Depends-Indep: perl
+Standards-Version: 4.1.2
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtest-object-perl.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libtest-object-perl.git
+Homepage: https://metacpan.org/release/Test-Object
+Rules-Requires-Root: no
+Testsuite: autopkgtest-pkg-perl
+
+Package: libtest-object-perl
+Architecture: all
+Depends: ${perl:Depends},
+         ${misc:Depends}
+Description: module for thoroughly testing objects via registered handlers
+ The Test::Object perl module aids testing deep trees of classes.
+ It allows testing an object against the expected behavior of all the
+ classes in its inheritance tree.
